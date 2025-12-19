@@ -323,7 +323,7 @@ def train_logistic_regression(X_train, X_test, y_train, y_test):
 # ========== MAIN FUNCTION ==========
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🎓 Sistem Seleksi Beasiswa dengan Machine Learning</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Sistem Seleksi Beasiswa dengan Machine Learning</h1>', unsafe_allow_html=True)
     st.markdown("**Universitas X - Beasiswa Generasi Unggul Nusantara**")
     
     # Sidebar
@@ -341,8 +341,9 @@ def main():
         
         st.markdown("---")
         st.info(
-            "Tugas Pembelajaran Mesin - Sistem Seleksi Beasiswa\n\n"
-            "proses seleksi beasiswa secara otomatis dan objektif."
+            "Tugas Pembelajaran Mesin\n\n"
+            "M. Riansyah Lubis - 072925002\n"
+            "Sumiati - 072925003"
         )
     
     # Load data
