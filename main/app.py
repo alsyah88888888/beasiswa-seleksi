@@ -341,8 +341,8 @@ def main():
         
         st.markdown("---")
         st.info(
-            "Sistem ini menggunakan Logistic Regression untuk membantu "
-            "proses seleksi beasiswa secara otomatis dan objektif."
+            "072925002	Muhammad Riansyah Lubis
+             072925003	Sumiati"
         )
     
     # Load data
