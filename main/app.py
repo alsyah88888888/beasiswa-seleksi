@@ -341,7 +341,7 @@ def main():
         
         st.markdown("---")
         st.info(
-            "Sistem ini menggunakan Logistic Regression untuk membantu "
+            "Tugas Pembelajaran Mesin - Sistem Seleksi Beasiswa\n\n"
             "proses seleksi beasiswa secara otomatis dan objektif."
         )
     
