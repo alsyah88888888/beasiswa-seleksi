@@ -333,7 +333,7 @@ def main():
         menu = st.radio(
             "Pilih Menu:",
             ["📊 Eksplorasi Data", 
-             "📚 Logistic Regression 101",
+             "📚 Logistic Regression",
              "🤖 Model Machine Learning", 
              "📈 Evaluasi Model", 
              "🔮 Prediksi Baru"]
@@ -405,8 +405,8 @@ def main():
         st.pyplot(fig)
     
     # Menu 2: Logistic Regression 101
-    elif menu == "📚 Logistic Regression 101":
-        st.markdown('<h1 class="main-header">📚 Logistic Regression 101</h1>', unsafe_allow_html=True)
+    elif menu == "📚 Logistic Regression":
+        st.markdown('<h1 class="main-header">📚 Logistic Regression</h1>', unsafe_allow_html=True)
         st.markdown("### **Memahami Logistic Regression sebagai Model Klasifikasi**")
         
         # Tab untuk penjelasan
@@ -649,7 +649,7 @@ def main():
                 
                 1. **Hitung Score:**
                 ```
-                z = (β_IPK × 3.5) + (β_Pendapatan × 15) + ... + β₀
+                z = \beta_{\text{IPK}} \times 3.5 + \beta_{\text{Pendapatan}} \times 15 + \dots + \beta_0
                 ```
                 
                 2. **Transform ke Probability:**
