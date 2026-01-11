@@ -199,7 +199,7 @@ def main():
         
         with col1:
             st.subheader("Preview Data")
-            st.dataframe(df.head(10), use_container_width=True)
+            st.dataframe(df.head(50), use_container_width=True)
         
         with col2:
             st.subheader("Statistik Data")
