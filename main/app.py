@@ -172,13 +172,7 @@ def main():
                 is_uploaded = True
             else:
                 df, is_uploaded = load_data()
-        
-        # Data preview in sidebar
-        if df is not None:
-            with st.expander("Preview Data"):
-                st.dataframe(df.head(5))
-                
-        
+ 
         # Navigation
         st.markdown("---")
         menu = st.radio(
