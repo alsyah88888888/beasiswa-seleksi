@@ -178,10 +178,6 @@ def main():
             with st.expander("Preview Data"):
                 st.dataframe(df.head(5))
                 
-            # Show data info
-            st.write("**Kolom dalam data:**")
-            for col in df.columns:
-                st.write(f"- {col}: {df[col].dtype}")
         
         # Navigation
         st.markdown("---")
